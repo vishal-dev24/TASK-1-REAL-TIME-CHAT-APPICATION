@@ -40,6 +40,7 @@ This project is a real-time chat application inspired by WhatsApp, built using t
 
 - **VS Code** - Used for coding and development.
 - **Git & GitHub** - For version control and project collaboration.
+- **Concurrently** - Runs both backend and frontend simultaneously for smooth development.
 
 ---
 
@@ -51,6 +52,7 @@ This project is a real-time chat application inspired by WhatsApp, built using t
 - **User List** - Displays all registered users for easy chat selection.
 - **Chat History** - Messages are stored persistently in MongoDB.
 - **Responsive Design** - Works seamlessly on different devices.
+- **Concurrently Integration** - Runs both backend and frontend with a single command.
 
 ---
 
@@ -88,16 +90,24 @@ Install dependencies:
 npm install
 ```
 
-Start the backend server:
-
-```bash
-node index.js
-```
-
-Start the React frontend:
+Start the backend and frontend together using Concurrently:
 
 ```bash
 npm run dev
+```
+
+This command runs the backend using `nodemon` and the frontend using `vite` simultaneously:
+
+```
+> server@1.0.0 dev
+> concurrently "nodemon index.js" "npm start --prefix ../client"
+
+[0] [nodemon] starting `node index.js`
+[1] > vite-project@0.0.0 start
+[1] > vite
+[1] VITE v6.2.0 ready in 1810 ms
+[1] ➜ Local:   http://localhost:5173/
+[0] 🚀 Server running on port 4000
 ```
 
 ---
