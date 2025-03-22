@@ -141,3 +141,18 @@ This WhatsApp-Style Chat App is a feature-rich, scalable, and responsive chat pl
 ### **License**
 This project is licensed under the MIT License.
 
+
+
+
+
+![Image](https://github.com/user-attachments/assets/8a474c40-8fdc-4aa0-aa6d-08aa6ad65607)
+
+![Image](https://github.com/user-attachments/assets/230bae01-ed95-4e7e-b73e-b7002444866d)
+
+![Image](https://github.com/user-attachments/assets/be1ee9d4-6081-4caf-ad7c-2b438a6ba1bb)
+
+![Image](https://github.com/user-attachments/assets/306884b2-c83e-4daa-aa1e-6b4e52f53382)
+
+![Image](https://github.com/user-attachments/assets/77645b88-3baa-4c8d-8eee-09fb64f26862)
+
+
